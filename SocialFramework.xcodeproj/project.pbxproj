@@ -22,6 +22,9 @@
 		164CD1A218A0522C0005FE09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 164CD1A018A0522C0005FE09 /* InfoPlist.strings */; };
 		164CD1A418A0522C0005FE09 /* SocialFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 164CD1A318A0522C0005FE09 /* SocialFrameworkTests.m */; };
 		164CD1AE18A052390005FE09 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 164CD1AD18A052390005FE09 /* Social.framework */; };
+		1698059618B3BF390068A145 /* TweetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1698059518B3BF390068A145 /* TweetsViewController.m */; };
+		1698059818B3CC380068A145 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1698059718B3CC380068A145 /* Accounts.framework */; };
+		1698059B18B3E2600068A145 /* TweetObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1698059A18B3E2600068A145 /* TweetObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,11 @@
 		164CD1A118A0522C0005FE09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		164CD1A318A0522C0005FE09 /* SocialFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialFrameworkTests.m; sourceTree = "<group>"; };
 		164CD1AD18A052390005FE09 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		1698059418B3BF390068A145 /* TweetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetsViewController.h; sourceTree = "<group>"; };
+		1698059518B3BF390068A145 /* TweetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetsViewController.m; sourceTree = "<group>"; };
+		1698059718B3CC380068A145 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1698059918B3E2600068A145 /* TweetObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetObject.h; sourceTree = "<group>"; };
+		1698059A18B3E2600068A145 /* TweetObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1698059818B3CC380068A145 /* Accounts.framework in Frameworks */,
 				164CD1AE18A052390005FE09 /* Social.framework in Frameworks */,
 				164CD17B18A0522B0005FE09 /* CoreGraphics.framework in Frameworks */,
 				164CD17D18A0522B0005FE09 /* UIKit.framework in Frameworks */,
@@ -104,6 +113,7 @@
 		164CD17718A0522B0005FE09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1698059718B3CC380068A145 /* Accounts.framework */,
 				164CD1AD18A052390005FE09 /* Social.framework */,
 				164CD17818A0522B0005FE09 /* Foundation.framework */,
 				164CD17A18A0522B0005FE09 /* CoreGraphics.framework */,
@@ -119,6 +129,10 @@
 				164CD18718A0522B0005FE09 /* AppDelegate.h */,
 				164CD18818A0522B0005FE09 /* AppDelegate.m */,
 				164CD18A18A0522B0005FE09 /* Main.storyboard */,
+				1698059418B3BF390068A145 /* TweetsViewController.h */,
+				1698059518B3BF390068A145 /* TweetsViewController.m */,
+				1698059918B3E2600068A145 /* TweetObject.h */,
+				1698059A18B3E2600068A145 /* TweetObject.m */,
 				164CD18D18A0522B0005FE09 /* ViewController.h */,
 				164CD18E18A0522B0005FE09 /* ViewController.m */,
 				164CD19018A0522B0005FE09 /* Images.xcassets */,
@@ -253,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1698059618B3BF390068A145 /* TweetsViewController.m in Sources */,
 				164CD18F18A0522B0005FE09 /* ViewController.m in Sources */,
+				1698059B18B3E2600068A145 /* TweetObject.m in Sources */,
 				164CD18918A0522B0005FE09 /* AppDelegate.m in Sources */,
 				164CD18518A0522B0005FE09 /* main.m in Sources */,
 			);
@@ -464,6 +480,7 @@
 				164CD1A918A0522C0005FE09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		164CD1AA18A0522C0005FE09 /* Build configuration list for PBXNativeTarget "SocialFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +489,7 @@
 				164CD1AC18A0522C0005FE09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

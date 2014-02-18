@@ -59,6 +59,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-39" y="23"/>
+        </scene>
+        <!--Tweets View Controller-->
+        <scene sceneID="pFh-Hg-hwt">
+            <objects>
+                <viewController id="WbG-Fa-SAp" customClass="TweetsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pV3-3Y-bzF"/>
+                        <viewControllerLayoutGuide type="bottom" id="YH6-X1-W25"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nce-uq-JsI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zO8-eD-P0j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="439" y="3"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
